@@ -1,3 +1,12 @@
+# `@tsukuba-shinkan/shinkan-web-orgadmin`
+
+[![License](https://img.shields.io/github/license/tsukuba-shinkan/shinkan-web-orgadmin?style=flat-square)](/LICENSE)
+[![CI Status](https://img.shields.io/github/workflow/status/tsukuba-shinkan/shinkan-web-orgadmin/CI?style=flat-square)](https://github.com/tsukuba-shinkan/shinkan-web-orgadmin/actions?query=workflow%3ACI)
+[![Dependencies](https://img.shields.io/david/tsukuba-shinkan/shinkan-web-orgadmin?style=flat-square)](https://david-dm.org/tsukuba-shinkan/shinkan-web-orgadmin)
+[![devDependencies](https://img.shields.io/david/dev/tsukuba-shinkan/shinkan-web-orgadmin?style=flat-square)](https://david-dm.org/tsukuba-shinkan/shinkan-web-orgadmin?type=dev)
+[![Imagine the future](https://img.shields.io/badge/Imagine%20the-future-%230bf?style=flat-square)](https://github.com/topics/imagine-the-future)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

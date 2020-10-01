@@ -3,7 +3,21 @@ name: Node.js CI
 on: ['push', 'pull_request']
 
 jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - run: npm ci
+      - run: npm run lint
+
   build:
+    name: Build
     runs-on: ubuntu-latest
 
     steps:

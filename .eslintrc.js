@@ -5,11 +5,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  plugins: [
-    '@typescript-eslint',
-    'import',
-    'react',
-  ],
+  plugins: ['@typescript-eslint', 'import', 'react'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -19,5 +15,10 @@ module.exports = {
   rules: {
     'react/prop-types': 'off',
     'import/order': 'error',
-  }
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 }

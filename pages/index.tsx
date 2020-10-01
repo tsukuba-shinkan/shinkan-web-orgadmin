@@ -1,7 +1,8 @@
 import Head from 'next/head'
+import React from 'react'
 import styles from '../styles/Home.module.css'
 
-const app: React.FC = () => 
+const app: React.FC = () => (
   <div className={styles.container}>
     <Head>
       <title>Create Next App</title>
@@ -42,9 +43,7 @@ const app: React.FC = () =>
           className={styles.card}
         >
           <h3>Deploy &rarr;</h3>
-          <p>
-            Instantly deploy your Next.js site to a public URL with Vercel.
-          </p>
+          <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
         </a>
       </div>
     </main>
@@ -60,5 +59,6 @@ const app: React.FC = () =>
       </a>
     </footer>
   </div>
+)
 
 export default app

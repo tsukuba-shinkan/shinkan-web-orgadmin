@@ -1,6 +1,6 @@
 {
-  "name": "orgadmin",
-  "version": "0.1.0",
+  "name": "@tsukuba-shinkan/shinkan-web-orgadmin",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

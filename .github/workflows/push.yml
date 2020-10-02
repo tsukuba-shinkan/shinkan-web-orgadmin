@@ -1,4 +1,4 @@
-name: Node.js CI
+name: CI
 
 on: ['push', 'pull_request']
 
@@ -28,4 +28,3 @@ jobs:
           node-version: 12.x
       - run: npm ci
       - run: npm run build
-      - run: npm test
